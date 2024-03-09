@@ -7,7 +7,7 @@ export const Home = () => {
     return <>
         <main >
             <section className="py-28 bg-black sm:pb-16 lg:pb-20 xl:pb-24">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                <div className="px-4 mx-auto sm:px-6 lg:px-8 w-3/4">
                     <div className="relative">
                         <div className="lg:w-2/3">
                             <p className="text-sm font-normal tracking-widest text-gray-300 uppercase">A HUB FOR ARTISTS, DEVELOPERS & 3D MARKETERS</p>
