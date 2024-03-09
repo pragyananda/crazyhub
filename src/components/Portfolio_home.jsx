@@ -24,10 +24,10 @@ const callouts = [
     },
 ]
 export const Portfolio_home = () => {
-    const modelpath = [
-        "./custom_range_rover_sport/scene.gltf",
-        // "./old_chinese/scene.gltf",
-    ];
+    // const modelpath = [
+    //     "./custom_range_rover_sport/scene.gltf",
+    //     // "./old_chinese/scene.gltf",
+    // ];
     return (
         <>
             <section className="py-12 bg-gray-700 rounded-b-lg  my-4 mx-3 rounded-md">
@@ -41,7 +41,7 @@ export const Portfolio_home = () => {
                         {/* <Slider /> */}
                         <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                             {/* <ModelCanvas Model={modelpath} /> */}
-                            <ModelCanvas Model={modelpath} />
+                            {/* <ModelCanvas Model={modelpath} /> */}
                             {/* <ModelCanvas Model={modelpath} /> */}
                             {/* {callouts.map((callout) => (
                                 <div key={callout.name} className="group relative">
