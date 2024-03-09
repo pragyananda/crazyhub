@@ -14,7 +14,7 @@ export const Navbar = () => {
     <>
       <div className="absolute top-0 m bg-transparent w-full ">
         <div className={`${styles.paddingX}${styles.flexCenter} `}>
-          <div className={`${styles.boxWidth} `}>
+          <div className={``}>
             <nav className="w-full flex py-6 justify-between items-center navbar ">
               <NavLink to="/" className="logo text-white ml-10 text-[1.4rem]">Crazyhub</NavLink>
               {/* <img src={react_svg} alt="crazyhub logo" className="w-[124px] h-[32px] " /> */}
