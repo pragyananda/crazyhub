@@ -38,7 +38,7 @@ export const Portfolio_home = () => {
                         <a href="#" className="bg-[#131313] black-button text-white text-sm py-2 px-4 rounded-full ">View our portfolio</a>
                     </div>
                     <div className="mt-12">
-                        {/* <Slider /> */}
+                        <Slider /> 
                         <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                             {/* <ModelCanvas Model={modelpath} /> */}
                             {/* <ModelCanvas Model={modelpath} /> */}
